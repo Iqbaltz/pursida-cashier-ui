@@ -13,6 +13,11 @@ export default function LoginPage({}: Props) {
         </CardHeader>
         <CardContent>
           <LoginForm />
+        <p className="mt-2 text-sm text-gray-500">
+          Hint: Email{" "}
+          <span className="font-mono text-blue-500">admin@testing.com</span><br />
+          Password: <span className="font-mono text-blue-500">password</span>
+        </p>
         </CardContent>
       </Card>
     </div>
