@@ -7,11 +7,11 @@ import { ThemeProvider } from "@/components/theme-provider";
 import ProgressBarProvider from "@/components/progressbar-provider";
 
 export const metadata: Metadata = {
-  title: "Pursida Cashier App",
-  description: "Pursida Cashier App",
+  title: "POS Demo Cashier App",
+  description: "POS Demo Cashier App",
   generator: "Next.js",
   manifest: "/manifest.json",
-  keywords: ["Pursida", "Cashier", "App"],
+  keywords: ["POS", "Cashier", "App"],
   themeColor: [{ media: "(prefers-color-scheme: dark)", color: "#fff" }],
   authors: [
     { name: "Foundasi" },

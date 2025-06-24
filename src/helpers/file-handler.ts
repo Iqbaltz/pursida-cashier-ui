@@ -261,7 +261,7 @@ export const excelToJson = (
         try {
           const data = new Uint8Array(e.target?.result as ArrayBuffer);
           const workbook = new ExcelJS.Workbook();
-          await workbook.xlsx.load(data);
+          await workbook.xlsx.load(data as any);
 
           const sheet = workbook.worksheets[0]; // Get the first worksheet
           const jsonData: IExcelRow[] = [];

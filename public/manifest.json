@@ -4,8 +4,8 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Kasir Pursida",
-    "short_name": "Pursida",
+    "name": "Kasir POS Demo",
+    "short_name": "POS Demo",
     "icons": [
         {
             "src": "/icon-192x192.png",

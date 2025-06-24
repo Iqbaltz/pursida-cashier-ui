@@ -95,7 +95,7 @@ export default function Sidebar({}: Props) {
         }`}
       >
         <div className="flex justify-between items-center p-4">
-          <h1 className="font-bold">UD. Pursida</h1>
+          <h1 className="font-bold">POS Demo</h1>
         </div>
 
         <div className="flex flex-col mt-4 overflow-y-auto">
